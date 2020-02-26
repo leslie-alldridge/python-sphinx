@@ -23,20 +23,18 @@ class Person:
     
     def display_name(self):
         '''
-        Inits with a default name of unknown and age zero.
+        Displays name of a person
 
-        :param name: (str) name of the person
-        :param age: (int) age of the person
+        :return: (str) name of the person
         '''
         print(self.name)
         return self.name
     
     def display_age(self):
         '''
-        Inits with a default name of unknown and age zero.
+        Displays age of a person
 
-        :param name: (str) name of the person
-        :param age: (int) age of the person
+        :return: (int) age of the person
         '''
         print(self.age)
         return self.age
